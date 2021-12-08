@@ -24,7 +24,7 @@ public class Market {
         this.id = id;
     }
 
-    public String getName() {
+    public  String getName() {
         return mName;
     }
 
@@ -32,7 +32,7 @@ public class Market {
         mName = name;
     }
 
-    public String getAdress() {
+    public  String getAdress() {
         return mAdress;
     }
 
@@ -40,7 +40,7 @@ public class Market {
         mAdress = adress;
     }
 
-    public String getPhone() {
+    public  String getPhone() {
         return mPhone;
     }
 
@@ -48,7 +48,7 @@ public class Market {
         mPhone = phone;
     }
 
-    public String getCountry() {
+    public  String getCountry() {
         return mCountry;
     }
 

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MarketList</string>
+    <string-array name="country_array">
+        <item>France</item>
+        <item>Belgique</item>
+        <item>Suisse</item>
+    </string-array>
 </resources>

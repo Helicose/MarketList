@@ -5,18 +5,21 @@ import java.util.List;
 
 public class MarketList implements Serializable {
 
-    private List<Market> mMarketList;
-    private int index;
-
-    public MarketList(){
-
-    }
+    public static List<Market> mMarketList;
 
     public MarketList(List<Market> marketList){
         mMarketList = marketList;
     }
 
-    public List<Market> getMarketList() {
+    public MarketList(MarketList marketList){
+        mMarketList = marketList.getMarketList();
+    }
+
+    public MarketList(){
+
+    }
+
+    public static List<Market> getMarketList() {
         return mMarketList;
     }
 
